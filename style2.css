@@ -1,0 +1,139 @@
+.title{
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+}
+body{
+    background-image: linear-gradient(to right top, #d7eb05, #bcd13f, #a5b757, #909d66, #7e8371);
+   height: 200vh;
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+ul{
+    list-style: none;
+    font-size: 30px;
+    margin-top: 10px;
+    width: 90%;
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: rgb(55, 44, 158);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.user{
+    padding: 10px;
+    width:15%;
+    font-weight: bold;
+    text-transform:uppercase ;
+    color: crimson;
+    transition: all 1s;
+
+}
+.user:hover{
+    background-color: chocolate;
+    color: cornsilk;
+    border-radius: 15px;
+    transform: scale(1.2);
+}
+.image{
+ height: 300px;
+    background: url(https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Alexander%20Chaikin,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1441791054/mo0jpneawpb3vwjvlkuj.jpg) black;
+    background-size: cover;
+    background-position:bottom;
+     background-blend-mode: lighten;
+}
+
+.userpic{
+   width: 100px;
+   height: 100px;
+   object-fit: cover;
+     
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-left: 5px;
+  
+
+    
+}
+.count{
+    background: blueviolet;
+    border-radius: 50%;
+    padding-left: 9px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 16px;
+    font-weight: bold;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 22px;
+    left: 79px;
+
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.content{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.floatingcontent{
+    width: 300px;
+    margin-left: 150px;
+   padding-top: 20px;
+}
+.float{
+    width: 450px;
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 5px;
+}
+.menubar{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 5px;
+}
+
+.icon i{
+    cursor: pointer;
+}
+.icon span{
+opacity: 0;
+transition: 0.8s opacity;
+
+}
+.icon:hover>span{
+    opacity: 1;
+
+}
